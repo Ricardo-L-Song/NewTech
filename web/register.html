@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <title>注册</title>
+  <link href="http://g.alicdn.com/sj/dpl/1.5.1/css/sui.min.css" rel="stylesheet">
+   <link href="http://g.alicdn.com/sj/dpl/1.5.1/css/sui-append.css" rel="stylesheet">
+  <script type="text/javascript" src="http://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="http://g.alicdn.com/sj/dpl/1.5.1/js/sui.min.js"></script>
+    <script type="text/javascript">
+ //刷新验证码
+// function HandlerClick(){
+//  alert('登陆成功');
+// }
+ </script>
+    <style type="text/css">
+ body{background:url(3.jpg)}
+ </style>
+</head>
+<body>
+  <div class="sui-container" >
+    <ul class="sui-breadcrumb">
+      <li><a href="index.html">引导页</a></li>
+      <li class="active">注册</li>
+    </ul>
+    
+    <form class="sui-form form-horizontal sui-validate" method="post" action="http://localhost:8080/NewTech/registerBean">
+      <div class="control-group">
+        <label class="sui-label label-info">用户名：</label>
+        <div class="controls">
+            <input class="input-medium" type='text' name="username" data-rules="required|minlength=2|maxlength=50" />
+        </div>
+      </div>
+        
+      <div class="control-group">
+        <label class="sui-label label-info">密码：</label>
+        <input class="input-medium" type="password" name="password" data-rules='required'>
+      </div>
+        
+        <div class="control-group">
+        <label class="sui-label label-info">first Name：</label>
+        <input class="input-medium" type="text" name="firstname" data-rules='required'>
+      </div>
+        
+        <div class="control-group">
+        <label class="sui-label label-info">middle Name：</label>
+        <input class="input-medium" type="text" name="middlename" data-rules='required'>
+      </div>
+        <div class="control-group">
+        <label class="sui-label label-info">last Name：</label>
+        <input class="input-medium" type="text" name="lastname" data-rules='required'>
+      </div>
+        
+         <div class="control-group">
+        <label class="sui-label label-info">地址1：</label>
+        <input class="input-medium" type="text" name="address1" data-rules='required'>
+      </div>
+         <div class="control-group">
+        <label class="sui-label label-info">地址2：</label>
+        <input class="input-medium" type="text" name="address2" data-rules='required'>
+      </div>
+        
+         <div class="control-group">
+        <label class="sui-label label-info">城市：</label>
+        <input class="input-medium" type="text" name="city" data-rules='required'>
+      </div>
+        
+         <div class="control-group">
+        <label class="sui-label label-info">国家：</label>
+        <input class="input-medium" type="text" name="state" data-rules='required'>
+      </div>
+        
+          <div class="control-group">
+        <label class="sui-label label-info">身份证号码：</label>
+        <input class="input-medium" type="text" name="pincode" data-rules='required'>
+      </div>
+        
+          <div class="control-group">
+        <label class="sui-label label-info">邮箱：</label>
+        <input class="input-medium" type="text" name="email" data-rules='required'>
+      </div>
+        
+          <div class="control-group">
+        <label class="sui-label label-info"> 电话：</label>
+        <input class="input-medium" type="text" name="phone" data-rules='required'>
+      </div>
+        
+      <div class="control-group">
+        <div class="controls">
+            <input type="submit" class="sui-btn btn-xlarge btn-danger" value="注册">
+        </div>
+      </div>
+    </form> 
+  </div>
+</body>
+</html>
