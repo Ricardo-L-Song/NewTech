@@ -39,7 +39,7 @@
 </label>
 <br />
 <label class="sui-btn btn-primary btn-xlarge">请选择书本的类别:</label>
-<form class="sui-form form-horizontal sui-validate"   name="form1" method="post" action="http://localhost:8080/NewTech/book.jsp">
+<form class="sui-form form-horizontal sui-validate"   name="form1" method="post" action="http://localhost:8080/NewTech1/book.jsp">
 
 <!-- <select name="category_name">
   <option value="English">英国文学</option>
