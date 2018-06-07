@@ -41,7 +41,7 @@ public class paymentInfoServlet extends HttpServlet {
      int type=Integer.parseInt(request.getParameter("creditcard_type"));
         try{
         Class.forName("com.mysql.jdbc.Driver").newInstance(); 
-        conn=DriverManager.getConnection("jdbc:mysql://localhost/mydb","root","SL886886");
+        conn=DriverManager.getConnection("jdbc:mysql://localhost/mydb","***","****");
         List<Payment> all=new ArrayList<Payment>();
         all=findAll();
                 out.println(num);

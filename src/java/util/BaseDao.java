@@ -17,8 +17,8 @@ package util;
 public class BaseDao {
      private static String driver="com.mysql.jdbc.Driver";
       private static String url="jdbc:mysql://localhost/mydb";
-      private static String user="root";
-     private static String password="SL886886";
+      private static String user="****";
+     private static String password="****";
      
       /***
  22      * 连接数据库的方法
